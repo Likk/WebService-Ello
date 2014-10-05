@@ -2,13 +2,14 @@ This is Perl module WebService::Ello.
 
 INSTALLATION
 
-WebService::Ello installation is straightforward. If your CPAN shell is set up,
+WebService::Ello installation is straightforward. If your git is set up,
 you should just be able to do
 
-    % cpan WebService::Ello
+    % git clone https://Likk@github.com/Likk/WebService-Ello.git ./
 
 Download it, unpack it, then build it as per the usual:
 
+    % cd ./WebService-Ello.git
     % perl Makefile.PL
     % make && make test
 
